@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:layoutsVersion='3' lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+<head>
+
+  <!--This is title section-->
+  <title>
+    <blogger.data.title/>
+  </title>    
+  
+  <!--meta tags-->
+  	<meta charset='UTF-8'/>
+	<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+	<meta content='index, follow' name='robots'/>
+	<meta content='Explore expert tutorials, coding tips, and software development insights. This blog helps developers grow with Laravel, PHP, and web development guidance.' name='description'/>
+	<meta content='Web Development, Laravel, PHP, Blogger, HTML, CSS, JavaScript, Software Engineering' name='keywords'/>
+	<meta content='A H Anam' name='author'/>
+  
+  
+  <!--css code-->
+      <b:skin><![CDATA[
+        /* Reset basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 28px;
+  color: #222;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+}
+
+h2, h3 {
+  color: #444;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}
+
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #333;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #f0f0f0;
+  color: #0073e6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    display: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .navbar.active .nav-links {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+  }
+}
+
+/* Toggele splecial */
+.menu-toggle {
+  display: none; /* Hide by default */
+}
+
+/* Show only on small screens */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+  }
+}
+
+
+
+
+
+      ]]></b:skin>
+  
+
+</head>
+
+<body>
+<b:section id='anam'/>
+  
+  
+  <!--Navbar-->
+  <header>
+  <div class='navbar'>
+    <div class='logo'>
+      <a href='/'>
+        <img alt='Logo' src='https://yourblogurl.blogspot.com/logo.png'/>
+      </a>
+    </div>
+    <nav class='nav-links'>
+      <a href='/'>Home</a>
+      <a href='/p/about.html'>About</a>
+      <a href='/p/portfolio.html'>Portfolio</a>
+      <a href='/search/label/Blog'>Blogs</a>
+      <a href='/p/contact.html'>Contact</a>
+    </nav>
+    <div class='menu-toggle' onclick='document.querySelector(&apos;.navbar&apos;).classList.toggle(&apos;active&apos;)'>
+  &#9776;
+</div>
+  </div>
+</header>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</body>
+
+</html>
